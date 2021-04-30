@@ -13,7 +13,7 @@
 # The lanugages that messages can be displayed in
 enabled_languages = ["it", "en", "uk", "ru", "zh_cn", "he", "es_mx"]
 # The default language to be set for users whose language cannot be autodetected or whose language is not enabled
-default_language = "it"
+default_language = "ru"
 # The language to fallback to if a string is missing in a specific language
 # You should set it to either "it" or "en", other languages may be missing some strings as greed is updated
 fallback_language = "en"
@@ -29,7 +29,7 @@ engine = "sqlite:///database.sqlite"
 # Telegram bot parameters
 [Telegram]
 # Your bot token goes here. Get one from https://t.me/BotFather!
-token = "1628237725:AAExabUKB6epujKNbcyqJcmE2m8NnwbgLOw"
+token = "1559571403:AAF1qSRUiiSjOtcXc2AS9Yp-nCpeMA-gN7I"
 # Time in seconds before a conversation (thread) with no new messages expires
 # A lower value reduces memory usage, but can be inconvenient for the users
 conversation_timeout = 7200
@@ -44,13 +44,13 @@ error_pause = 5
 # General payment settings
 [Payments]
 # ISO currency code
-currency = "EUR"
+currency = "RUB"
 # Currency exp parameter. You can find that on https://core.telegram.org/bots/payments/currencies.json.
 # It has a value of 2 in most currencies (EUR, USD, GBP...)
 currency_exp = 2
 # Currency symbol which is show to the client users when displaying prices and transaction values
 # If not defined here, default language specific currency symbol from strings would be used
-currency_symbol = "€"
+currency_symbol = "RUB"
 
 
 # Credit card payment settings
@@ -58,7 +58,7 @@ currency_symbol = "€"
 # Telegram Payments provider token obtainable at https://t.me/BotFather in the bot's Payments menu
 # If empty, credit card payments are disabled.
 # credit_card_token =
-credit_card_token = "381764678:TEST:23763"
+credit_card_token = "390540012:LIVE:15888"
 # Minimum wallet payment accepted (in miniumum currency units, $1.00 = 100 units)
 min_amount = 1000
 # Maximum wallet payment accepted (in miniumum currency units, $1.00 = 100 units)
